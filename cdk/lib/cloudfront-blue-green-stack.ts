@@ -12,7 +12,7 @@ export class CloudfrontBlueGreenStack extends Stack {
       originConfigs: [
         {
           customOriginSource: {
-            domainName: 'i79zd5npek.execute-api.eu-central-1.amazonaws.com',
+            domainName: 'z94v0b7g32.execute-api.eu-central-1.amazonaws.com/prod/',
             originPath: '/prod',
           },
           behaviors: [ {isDefaultBehavior: true}],        },
