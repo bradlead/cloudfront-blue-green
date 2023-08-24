@@ -7,7 +7,7 @@ jobs:
   deploy_test:
     runs-on: ubuntu-latest
     outputs:
-      TEST_URL: ${{ steps.set_outputs.outputs.TEST_URL }}
+      TEST_URL: 'https://${{ steps.set_outputs.outputs.TEST_URL }}'
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
